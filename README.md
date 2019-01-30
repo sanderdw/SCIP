@@ -1,5 +1,7 @@
 ## Compile SCIP (scip.zib.de) in Docker with threading functionality
-SCIP in Docker
+- Copy 1 of the folders with the dockerfile on your machine.
+- Download the SCIP Optimization Suite Source code from https://scip.zib.de/index.php#download and put it in the same folder.
+- Then use below instructions to build and run the Docker container.
 
 ### Build instructions
 docker build --no-cache -t myscip .
